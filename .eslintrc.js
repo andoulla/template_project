@@ -4,9 +4,11 @@ module.exports = {
       'plugin:react-hooks/recommended',
       'plugin:prettier/recommended',
       'plugin:import-order/recommended',
+      'plugin:jsx-a11y/recommended'
     ],
     plugins: [
-        'import-order'
+        'import-order',
+        "jsx-a11y"
     ],
     env: {
       es6: true,
@@ -29,8 +31,8 @@ module.exports = {
           alphabetize: {
             order: 'asc',
             caseInsensitive: true 
-      }
-      }]
+            }
+        }]
     },  settings: {
       react: {
         version: 'detect',
