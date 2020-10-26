@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// TODO: install linting js
+// TODO: install linting css
+// TODO: install al1y
 
 ReactDOM.render(
   <React.StrictMode>
